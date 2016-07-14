@@ -1,11 +1,6 @@
 <?php
 require_once('../../private/initialize.php');
 
-// Until we learn about encryption, we will use an unencrypted
-// master password as a stand-in. It should go without saying
-// that this should *never* be done in real production code.
-$master_password = 'secret';
-
 // Set default values for all variables the page needs.
 $errors = array();
 $username = '';
